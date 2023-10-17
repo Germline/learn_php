@@ -10,4 +10,5 @@ var_dump($bool);
 $bool = 10 < 2;
 var_dump($bool);
 
+
 ?>
