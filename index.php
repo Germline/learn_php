@@ -1,10 +1,13 @@
 
 
 <?php
-$num = 1;
-echo($num); // numbreid ei pea 
-echo 'hello world';
-var_dump($num);
-var_dump($num);
-$string = 'sone';
+$bool = true;
+var_dump($bool);
+$bool = false;
+var_dump($bool);
+$bool = 10 > 2;
+var_dump($bool);
+$bool = 10 < 2;
+var_dump($bool);
+
 ?>
