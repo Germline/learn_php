@@ -41,8 +41,8 @@ class UsersController {
 
     public function update(){
         $user = User::find($_GET['id']);
-        $user->title = $_POST['title'];
-        $user->body = $_POST['body'];
+        $user->email = $_POST['email'];
+        $user->password = $_POST['password'];
         $user->save();
         header('Location: /admin/users');
     }
