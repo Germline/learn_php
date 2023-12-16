@@ -15,7 +15,7 @@
                     <div class="btn-group" role="group" aria-label="New User">
                         <a class="btn btn-info" href="/admin/users/show?id=<?=$user->id?>">View</a>
                         <a class="btn btn-warning" href="/admin/users/edit?id=<?=$user->id?>">Edit</a>
-                        <a type="submit" class="btn btn-danger">Delete</a>
+                        <a class="btn btn-danger" href="/admin/users/delete?id=<?=$user->id?>">Delete</a>
                     </div>
                     </td>
                 </tr>
