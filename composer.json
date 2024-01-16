@@ -1,0 +1,19 @@
+{
+  "name": "germline/learn_php",
+  "type": "project",
+  "license": "WTFPL",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Germline",
+      "email": "priitsyld@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/var-dumper": "^7.0"
+  }
+}

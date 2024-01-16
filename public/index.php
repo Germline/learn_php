@@ -1,10 +1,6 @@
 <?php
 
-spl_autoload_register(function ($class){
-    $class = substr($class, 4);
-    $class = str_replace('\\', '/', $class);
-    require_once __DIR__ . "/../src/$class.php";
-});
+require_once __DIR__ . '/../vendor/autoload.php';
 
 require_once __DIR__ . '/../routes.php';
 $router = new App\Router($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD']);
